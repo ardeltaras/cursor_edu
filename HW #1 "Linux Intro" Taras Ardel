@@ -22,6 +22,7 @@ Hint: Many commands can accept more than one parameter.
   rm empty_file.txt new_test.txt
 
 Create hw.txt file under cursor directory
+  cd cursor/
   touch hw.txt
 
 7*. Set the file hw.txt to have a last-modified date of January 1, 2020, 4:15am.
