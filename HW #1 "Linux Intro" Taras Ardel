@@ -45,14 +45,14 @@ Hint: Use grep
   mkdir text_files | cp *.txt text_files
 
 10. Write `cursor` to the hw.txt file by using echo.
-  sudo echo 'cursor' >> hw.txt
+  echo 'cursor' >> hw.txt
 
 11. Display the contents of hw.txt
   cat hw.txt
 
 12. Change the permissions to 0 for current user and try to Display contents again.
   chmod 0 hw.txt
-  sudo cat hw.txt
+  cat hw.txt
 
 13. Change the permission to rwx for current user only and try again.
   chmod 700 hw.txt
